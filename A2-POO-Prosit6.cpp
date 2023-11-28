@@ -1,8 +1,15 @@
 #include "pch.h"
-
+#include "MyForm.h"
 using namespace System;
+using namespace System::Windows::Forms;
 
-int main(array<System::String ^> ^args)
+
+[STAThreadAttribute]
+int main(array<String^>^ args)
 {
-    return 0;
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
+	P6new::MyForm monFormulaire;
+	Application::Run(% monFormulaire);
 }
+
