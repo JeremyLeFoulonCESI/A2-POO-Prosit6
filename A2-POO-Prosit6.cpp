@@ -38,10 +38,5 @@ int main(array<String^>^ args)
 	Console::WriteLine(reader);
 
 	conn->Close();*/
-
-	Application::EnableVisualStyles();
-	Application::SetCompatibleTextRenderingDefault(false);
-	P6new::MyForm monFormulaire;
-	Application::Run(% monFormulaire);
 }
 
