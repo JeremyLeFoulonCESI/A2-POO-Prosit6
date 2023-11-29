@@ -1,9 +1,9 @@
 #include "pch.h"
-#include "MyForm.h"
-#include "Password.h"
+#include "MysqlPassword.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
+using namespace System::Collections::Generic;  // for vector-like lists
 using namespace MySql::Data::MySqlClient;
 
 
@@ -38,5 +38,7 @@ int main(array<String^>^ args)
 	Console::WriteLine(reader);
 
 	conn->Close();*/
+
+
 }
 

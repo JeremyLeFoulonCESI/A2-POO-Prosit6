@@ -8,5 +8,6 @@
 #define PCH_H
 
 // add headers that you want to pre-compile here
+#include "Components.DataBaseWrapper.h"
 
 #endif //PCH_H
